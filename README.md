@@ -129,7 +129,7 @@ results = asyncio.run(analyze_project())
 wahloon-multi-agent-cad/
 ├── src/
 │   ├── agents/                 # Specialized AI agents
-│   │   ├── agent_base.py      # Base agent class
+│   │   ├── agent_base.py       # Base agent class
 │   │   ├── design_analyzer.py
 │   │   ├── clash_detector.py
 │   │   ├── compliance_checker.py
@@ -144,7 +144,7 @@ wahloon-multi-agent-cad/
 │       ├── config.py
 │       └── logger.py
 ├── examples/
-│   └── basic_usage.py         # Usage examples
+│   └── basic_usage.py          # Usage examples
 ├── tests/                      # Unit tests
 │   ├── test_agents.py
 │   └── test_workflows.py
